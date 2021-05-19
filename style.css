@@ -13,3 +13,71 @@ body, html {
     scroll-behavior: smooth;
     background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,14,66,1) 100%);
 } 
+
+a {
+    text-decoration: none;
+    color: white;
+}
+h1 {
+    font-family: 'Hero New';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    color: #FFFFFF;
+    overflow: hidden;
+}
+h2 {
+    font-family: 'Hero New';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+h3 {
+    font-family: 'Hero New';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+    color: #8298FF;
+}
+p, ::placeholder{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #B6B6B6;
+}
+header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    background-color: #000c38;
+    z-index: 1;
+}
+.navbar {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+}
+.subscribe-button {
+    width: 173px;
+    height: 49px;
+    background: #3208B7;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+.nav-item {
+    margin-left: 5rem;
+}
+.nav-link{
+    font-size: 18px;
+    font-weight: 400;
+    color: #B6B6B6;
+}
