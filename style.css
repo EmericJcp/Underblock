@@ -87,7 +87,7 @@ header {
     height: 100vh;
     display: flex;
     justify-content: center;
-
+    padding-top: 100px;
 }
 
 .home-container {
@@ -249,9 +249,9 @@ header {
 }
 
 .about-us-img-container>img {
-     grid-area: 1 / 1 / 2 / 2;
-    display: flex;
-    align-items: center;
+     width: 100%;
+    max-width: 500px;
+    height: auto; 
 }
   
 .about-us-texts-container { 
@@ -302,6 +302,11 @@ header {
     grid-column-gap: 0px;
     grid-row-gap: 0px;
   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
   .cards {
     width: 60%;
     height: 90%;
@@ -362,7 +367,13 @@ header {
 }
   
 .newsletter-container {
-    padding-top: 100px;
+    width: 90%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
 }
     
  .newsletter-texts-container { 
