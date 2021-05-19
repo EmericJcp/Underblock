@@ -13,3 +13,64 @@ body, html {
     scroll-behavior: smooth;
     background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,14,66,1) 100%);
 } 
+
+.newsletter {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter-container {
+    width: 90%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.newsletter-texts-container { 
+    grid-area: 1 / 1 / 2 / 2;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: start;
+}
+
+.newsletter-img-container { 
+    grid-area: 1 / 2 / 2 / 3; 
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.newsletter-img-container>img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
+input {
+    width: 80%;
+    height: 55px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-top: 50px;
+    padding-left: 20px;
+    border-radius: 15px;
+    border: 0px;
+    outline: none;
+    color: white;
+    background: #070D21;
+    box-shadow: 0px 0px 10px 2px rgba(198, 174, 233, 0.4);
+}
+
+.error {
+    animation: shake 0.1s ease-in-out 0.1s 5 alternate;
+}
+
+.good {
+    border: 2px solid green;
+}
