@@ -20,7 +20,55 @@
         <title>Underblock</title>
     </head>
     <body>
-        <section id="technology" class="technology">
+
+        <header class="header">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a href="#home" class="nav-logo">
+                    <img alt="" src="assets/logo/logo.svg"/>
+                </a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav">
+                        <a href="#technology" class="nav-item nav-link text-muted ">Technologie</a>
+                        <a href="#about-us" class="nav-item nav-link text-muted">À propos</a>
+                        <a href="#price" class="nav-item nav-link text-muted">Prix</a>
+                    </div>
+                    <button class="subscribe-button display-subscribe-button navbar-nav ml-auto d-flex justify-content-center align-items-center" 
+                        onclick="window.location.href = '#price'">
+                        <strong>S'abonner</strong>
+                    </button>
+                </div>
+            </nav>
+        </header>
+  
+          <section id="home" class="home">
+            <div class="home-container">
+                <div class="home-texts-buttons-container">
+                    <div class="home-texts-container">
+                        <h3>Un data center au service du BTP</h3>
+                        <h1>Soyez maître de vos données</h1>
+                        <p>Améliorer votre scalabilité par la gestion et l’optimisation automatique de vos données.</p>
+                    </div>
+                    <div class="home-buttons-container">
+                        <button class="subscribe-button secondary-button" 
+                            onclick="window.location.href = '#technology'">
+                            <strong>En savoir plus</strong>
+                        </button>
+                        <button class="subscribe-button" 
+                            onclick="window.location.href = '#price'">
+                            <strong>S'abonner</strong>
+                        </button>
+                    </div>
+                </div>
+                <div class="home-img-container">
+                    <img src="assets/illustration3D/3D-1.png" alt="">
+                </div>
+            </div>
+        </section>
+      
+       <section id="technology" class="technology">
             <div class="technology-container">
                 <div class="security">
                     <h2>Sécurité</h2>
